@@ -1,0 +1,20 @@
+Install Django:
+
+  - To install the django you should have python installed
+  - pythong versiong should be mote than 3.6 and pip version should be more than 19.0
+  - Now run below commands to install Django
+  - If we install django directly then it will be available for entire machine but what if you want to have different configuration for django for different projects
+  - for that we need to install the virstual environment by below command
+  
+      - pip install virtualenvwrapper-win    #to install virtual environment
+      - python -m venv myworld               #to create the vitual environment and in that myworld is name of virtual environment it will be anything you 
+                                             #want
+      -  source myworld/bin/activate         #To activate the virtual environment
+  
+  - Once you activate the virtual environment it will look like below image
+  
+  
+      
+      1. pip install Django            #to install the django
+      2. django-admin --version        #to check the django version and verify that django is installed or not
+      
